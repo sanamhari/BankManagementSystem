@@ -68,6 +68,7 @@ this protection contains customer’s account, money and his privacy.
 Here in my project there are two types of modules. This module is the main module which 
 performs all the main operations in the system. The major operations in the system are:  
 **Admin Module**  
+
 Admin can access this project there is an authorization process. If you login as an Admin then 
 you will be redirected to the Admin Home Page and if you are a simple user you will be 
 redirected to your Account Home Page. This performs the following functions: Create  
@@ -81,6 +82,7 @@ Delete/close account etc.
 6- Active/Inactive account  
 7- View transaction histories  
 **User Module**
+
 A simple user can access their account and can deposit/withdraw money from their account.  
 User can also transfer money from their account to any other bank account. User can see their 
 transaction report and balance enquiry too.  
