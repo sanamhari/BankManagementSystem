@@ -32,7 +32,7 @@ public class Transactions extends JFrame implements ActionListener {
         deposit.addActionListener(this);
         image.add(deposit);
         
-        withdrawl = new JButton("Withdrawl");
+        withdrawl = new JButton("Withdrawal");
         withdrawl.setBounds(290, 325, 100, 20);
         withdrawl.setFont(new Font("System", Font.BOLD, 10));
         withdrawl.addActionListener(this);
@@ -56,7 +56,7 @@ public class Transactions extends JFrame implements ActionListener {
         pinChange.addActionListener(this);
         image.add(pinChange);
         
-        balanceEnquiry = new JButton("Bal Enquiry");
+        balanceEnquiry = new JButton("Balance Enquiry");
         balanceEnquiry.setBounds(290, 375, 100, 20);
         balanceEnquiry.setFont(new Font("System", Font.BOLD, 10));
         balanceEnquiry.addActionListener(this);
@@ -81,9 +81,9 @@ public class Transactions extends JFrame implements ActionListener {
         } else if(ae.getSource() == deposit) {
             setVisible(false);
             new Deposit(pinNumber).setVisible(true);
-        } else if(ae.getSource() == withdrawl) {
+        } else if(ae.getSource() == withdrawal) {
             setVisible(false); 
-            new Withdrawl(pinNumber).setVisible(true); 
+            new Withdrawal(pinNumber).setVisible(true); 
         } else if(ae.getSource() == fastCash) {
             setVisible(false); 
             new FastCash(pinNumber).setVisible(true); 
