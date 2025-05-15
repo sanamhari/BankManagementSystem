@@ -5,13 +5,13 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
 
-public class Withdrawl extends JFrame implements ActionListener {
+public class Withdrawal extends JFrame implements ActionListener {
 
     JTextField amount;
     JButton withdraw, back;
     String pinNumber;
     
-    Withdrawl (String pinNumber) {
+    Withdrawal (String pinNumber) {
         
         this.pinNumber = pinNumber; 
         setLayout(null);
@@ -75,6 +75,6 @@ public class Withdrawl extends JFrame implements ActionListener {
     }
     
     public static void main(String args[]) {
-        new Withdrawl("");
+        new Withdrawal("");
     }
 }
